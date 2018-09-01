@@ -13,4 +13,5 @@ The virtualenvironment is env_locallibrary.
 I do not know at the time of writing (28/8/2018) whether it was adapted to work on linux (Ubuntu) or not.
 I did launch it form within Ubuntu and it worked.
 
-It has a repository on GitHub.
+It has a repository on GitHub that was deleted on 1/9/2018.
+1/9/2018 A new repository on BitBucket is made.
