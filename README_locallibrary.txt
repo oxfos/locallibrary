@@ -15,3 +15,9 @@ I did launch it form within Ubuntu and it worked.
 
 It has a repository on GitHub that was deleted on 1/9/2018.
 1/9/2018 A new repository on BitBucket is made.
+
+8/9/2018
+I renamed the parent folder:
+$ mv django_test > django_projects
+It was not a problem for this project, created with virtualenvwrapper.
+It was a problem for projects created with pipenv...
