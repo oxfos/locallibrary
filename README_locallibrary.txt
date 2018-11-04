@@ -20,4 +20,6 @@ It has a repository on GitHub that was deleted on 1/9/2018.
 I renamed the parent folder:
 $ mv django_test > django_projects
 It was not a problem for this project, created with virtualenvwrapper.
-It was a problem for projects created with pipenv...
+It was a problem for projects created with pipenv
+(3/11/2018: pipenv looks for pipfile in order to install required packages.
+so if you need to rename a folder or move a project, move also the pipfile.)
