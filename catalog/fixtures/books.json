@@ -1,0 +1,501 @@
+[
+{
+  "model": "catalog.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Science Fiction"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Fantasy"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Western"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 4,
+  "fields": {
+    "name": "French poetry"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Biography"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Do it yourself"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Psychology"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Programming"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 10,
+  "fields": {
+    "name": "Business"
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 1,
+  "fields": {
+    "title": "The Lord of the Rings",
+    "author": 2,
+    "summary": "Wonderful fantasy book of which a movie was also made.",
+    "isbn": "9788373191723",
+    "language": "English",
+    "genre": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 2,
+  "fields": {
+    "title": "Il segreto del nonno",
+    "author": 1,
+    "summary": "Book written by my grandpa.",
+    "isbn": "9788373192375",
+    "language": "Italian",
+    "genre": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 3,
+  "fields": {
+    "title": "I, Robot",
+    "author": 3,
+    "summary": "Sci-fi book of which a movie with Will Smith was made.",
+    "isbn": "9780007491513",
+    "language": "English",
+    "genre": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 4,
+  "fields": {
+    "title": "Le petit prince",
+    "author": 5,
+    "summary": "Profound book on life.",
+    "isbn": "9788995317471",
+    "language": "French",
+    "genre": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 5,
+  "fields": {
+    "title": "Awaken the Giant Within : How to Take Immediate Control of Your Mental, Emotional, Physical and Financial Destiny!",
+    "author": 6,
+    "summary": "Wake up and take control of your life! From the bestselling author of Inner Strength, Unlimited Power, and MONEY Master the Game, Anthony Robbins, the nation's leader in the science of peak performance, shows you his most effective strategies and techniques for mastering your emotions, your body, your relationships, your finances, and your life.\r\n\r\nThe acknowledged expert in the psychology of change, Anthony Robbins provides a step-by-step program teaching the fundamental lessons of self-mastery that will enable you to discover your true purpose, take control of your life, and harness the forces that shape your destiny.",
+    "isbn": "0671791540",
+    "language": "English",
+    "genre": [
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 6,
+  "fields": {
+    "title": "Steve Jobs",
+    "author": 7,
+    "summary": "Based on more than forty interviews with Jobs conducted over two years\u2014as well as interviews with more than a hundred family members, friends, adversaries, competitors, and colleagues\u2014Walter Isaacson has written a riveting story of the roller-coaster life and searingly intense personality of a creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing.\r\nAt a time when America is seeking ways to sustain its innovative edge, and when societies around the world are trying to build digital-age economies, Jobs stands as the ultimate icon of inventiveness and applied imagination. He knew that the best way to create value in the twenty-first century was to connect creativity with technology. He built a company where leaps of the imagination were combined with remarkable feats of engineering.",
+    "isbn": "1451648537",
+    "language": "English",
+    "genre": [
+      6,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 7,
+  "fields": {
+    "title": "Evil by Design: Interaction Design to Lead Us into Temptation",
+    "author": 8,
+    "summary": "Learn how companies make us feel good about doing what they want. Approaching persuasive design from the dark side, this book melds psychology, marketing, and design concepts to show why we're susceptible to certain persuasive techniques. Packed with examples from every nook and cranny of the web, it provides easily digestible and applicable patterns for putting these design techniques to work. Organized by the seven deadly sins, it includes:\r\nPride -- use social proof to position your product in line with your visitors' values\r\nSloth -- build a path of least resistance that leads users where you want them to go\r\nGluttony -- escalate customers' commitment and use loss aversion to keep them there\r\nAnger -- understand the power of metaphysical arguments and anonymity\r\nEnvy -- create a culture of status around your product and feed aspirational desires\r\nLust -- turn desire into commitment by using emotion to defeat rational behavior\r\nGreed -- keep customers engaged by reinforcing the",
+    "isbn": "1118422147",
+    "language": "English",
+    "genre": [
+      7,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 8,
+  "fields": {
+    "title": "Principles: Life and Work",
+    "author": 9,
+    "summary": "#1 New York Times Bestseller\r\n\r\n\u201cSignificant...The book is both instructive and surprisingly moving.\u201d \u2014The New York Times\r\n\r\nRay Dalio, one of the world\u2019s most successful investors and entrepreneurs, shares the unconventional principles that he\u2019s developed, refined, and used over the past forty years to create unique results in both life and business\u2014and which any person or organization can adopt to help achieve their goals.",
+    "isbn": "1501124021",
+    "language": "English",
+    "genre": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 9,
+  "fields": {
+    "title": "The Alchemist: A Fable About Following Your Dream",
+    "author": 10,
+    "summary": "A global phenomenon, The Alchemist has been read and loved by over 62 million readers, topping bestseller lists in 74 countries worldwide. Now this magical fable is beautifully repackaged in an edition that lovers of Paulo Coelho will want to treasure forever.\r\n\r\nEvery few decades a book is published that changes the lives of its readers forever. This is such a book \u2013 a beautiful parable about learning to listen to your heart, read the omens strewn along life\u2019s path and, above all, follow your dreams.\r\n\r\nSantiago, a young shepherd living in the hills of Andalucia, feels that there is more to life than his humble home and his flock. One day he finds the courage to follow his dreams into distant lands, each step galvanised by the knowledge that he is following the right path: his own. The people he meets along the way, the things he sees and the wisdom he learns are life-changing.",
+    "isbn": "9780722532935",
+    "language": "English",
+    "genre": [
+      2,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 10,
+  "fields": {
+    "title": "The Code of the Extraordinary Mind: 10 Unconventional Laws to Redefine Your Life and Succeed On Your Own Terms",
+    "author": 11,
+    "summary": "What if everything we think we know about how the world works\u2014our ideas of love, education, spirituality, work, happiness, and love\u2014are based on Brules (bullsh*t rules) that get passed from generation to generation and are long past their expiration date?\r\n\r\nThis book teaches you to think like some of the greatest non-conformist minds of our era, to question, challenge, hack, and create new rules for YOUR life so you can define success on your own terms.\r\n\r\nThe Code of the Extraordinary Mind, a New York Times bestseller, is a blueprint of laws to break us free from the shackles of an ordinary life. It makes a case that everything we know about the world is shaped by conditioning and habit. And thus, most people live their lives based on limiting rules and outdated beliefs about pretty much everything\u2014love, work, money, parenting, sex, health, and more\u2014which they inherit and pass on from generation to generation.",
+    "isbn": "B0182SMOBE",
+    "language": "English",
+    "genre": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 11,
+  "fields": {
+    "title": "Business Gamification For Dummies",
+    "author": 12,
+    "summary": "The easy way to grasp and use gamification concepts in business\r\nGamification is a modern business strategy that leverages principles from games to influence favorable customer behavior on the web in order to improve customer loyalty, engagement, and retention. Gamification can be used by any department in a company (HR, Sales, Marketing, Engineering, Support, etc.), for any web-based experience (mobile, website, retail, community, etc.).\r\n\r\nBusiness Gamification For Dummies explains how you can apply the principles of this strategic concept to your own business model.\r\n\r\nHow gamification evolved from Farmville/Zynga and Facebook and is now something that can be applied to the work environment\r\nHow to build a successful gamification program\r\nHow to entice and retain customers using gamification\r\nHow to drive employee behavior inside your organization\r\nReal-world illustrations of gamification at work",
+    "isbn": "B00B6E0XYW",
+    "language": "English",
+    "genre": [
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "00881053-d6a9-4cb5-84f6-b22085744169",
+  "fields": {
+    "book": 5,
+    "imprint": "Paperback",
+    "due_back": "2018-07-27",
+    "borrower": null,
+    "status": "m"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "15d4e652-8288-4216-b786-6cff416db54b",
+  "fields": {
+    "book": 8,
+    "imprint": "Kindle",
+    "due_back": "2018-11-25",
+    "borrower": 1,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "2d335691-9be9-41ec-ba54-1877c2c00ba0",
+  "fields": {
+    "book": 3,
+    "imprint": "Hardcopy",
+    "due_back": "2018-12-23",
+    "borrower": null,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "63f4f85e-22e1-4e84-af40-4fa1dbfae2f5",
+  "fields": {
+    "book": 5,
+    "imprint": "Kindle",
+    "due_back": "2018-11-25",
+    "borrower": 2,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "67077894-5cf3-4e37-a723-3ab0ccf5dd5d",
+  "fields": {
+    "book": 7,
+    "imprint": "Paperback",
+    "due_back": "2018-11-25",
+    "borrower": 1,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "8e5e0bb3-60b5-4f86-b41b-109cb062f35a",
+  "fields": {
+    "book": 2,
+    "imprint": "Paperback",
+    "due_back": null,
+    "borrower": null,
+    "status": "a"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "8e64438d-ff22-408e-a3bd-46bec9c9a827",
+  "fields": {
+    "book": 3,
+    "imprint": "Paperback",
+    "due_back": "2018-12-23",
+    "borrower": 2,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "a3be8044-5479-4872-ae7f-258bb7abb37b",
+  "fields": {
+    "book": 10,
+    "imprint": "Paperback",
+    "due_back": "2018-11-25",
+    "borrower": 1,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "b270d76d-56b0-4cb8-9d0a-075094c68581",
+  "fields": {
+    "book": 6,
+    "imprint": "Hardcopy",
+    "due_back": "2018-12-23",
+    "borrower": null,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "c3379bc2-b611-4c2b-a86c-960742ac6bfa",
+  "fields": {
+    "book": 1,
+    "imprint": "Paperback",
+    "due_back": "2018-12-23",
+    "borrower": 1,
+    "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "c46e46ef-33f8-40b2-985a-335a9f68eef4",
+  "fields": {
+    "book": 1,
+    "imprint": "Hardcopy",
+    "due_back": "2018-07-17",
+    "borrower": null,
+    "status": "m"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "c97d036e-e8c8-4e57-a60c-cadcf5aea930",
+  "fields": {
+    "book": 5,
+    "imprint": "Hardcopy",
+    "due_back": "2018-07-14",
+    "borrower": 2,
+    "status": "r"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "e525e12a-033c-476a-af57-63a3f0b93004",
+  "fields": {
+    "book": 4,
+    "imprint": "Hardcopy",
+    "due_back": "2018-07-26",
+    "borrower": null,
+    "status": "r"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "f86c48ea-6c48-4480-aca6-fb0c9b957750",
+  "fields": {
+    "book": 2,
+    "imprint": "Paperback",
+    "due_back": null,
+    "borrower": null,
+    "status": "a"
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 1,
+  "fields": {
+    "first_name": "Rinaldo",
+    "last_name": "Bertossa",
+    "date_of_birth": "1893-04-07",
+    "date_of_death": "1972-12-04"
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 2,
+  "fields": {
+    "first_name": "John Ronald",
+    "last_name": "Tolkien",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 3,
+  "fields": {
+    "first_name": "Isaac",
+    "last_name": "Asimov",
+    "date_of_birth": "1918-07-01",
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 5,
+  "fields": {
+    "first_name": "Antoine",
+    "last_name": "de Saint-Exup\u00e9ry",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 6,
+  "fields": {
+    "first_name": "Anthony",
+    "last_name": "Robbins",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 7,
+  "fields": {
+    "first_name": "Walter",
+    "last_name": "Isaacson",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 8,
+  "fields": {
+    "first_name": "Chris",
+    "last_name": "Nodder",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 9,
+  "fields": {
+    "first_name": "Ray",
+    "last_name": "Dalio",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 10,
+  "fields": {
+    "first_name": "Paulo",
+    "last_name": "Coelo",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 11,
+  "fields": {
+    "first_name": "Vishen",
+    "last_name": "Lakhiani",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 12,
+  "fields": {
+    "first_name": "Kris",
+    "last_name": "Duggan",
+    "date_of_birth": null,
+    "date_of_death": null
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 13,
+  "fields": {
+    "first_name": "Nir",
+    "last_name": "Eyal",
+    "date_of_birth": "1976-05-01",
+    "date_of_death": null
+  }
+}
+]
