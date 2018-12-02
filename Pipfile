@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyparsing = "*"
+pytz = "*"
+requests = "*"
+six = "*"
+snowballstemmer = "*"
+sphinxcontrib-websupport = "*"
+"urllib3" = "*"
+"Jinja2" = "*"
+MarkupSafe = "*"
+Pygments = "*"
+Sphinx = "*"
+django = "*"
+django-extensions = "*"
+graphviz = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
