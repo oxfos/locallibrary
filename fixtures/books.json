@@ -225,6 +225,21 @@
   }
 },
 {
+  "model": "catalog.book",
+  "pk": 13,
+  "fields": {
+    "title": "Hooked: How to Build Habit-Forming Products",
+    "author": 13,
+    "summary": "Why do some products capture widespread attention while others flop? What makes us engage with certain products out of sheer habit? Is there a pattern underlying how technologies hook us?\r\n\r\nNir Eyal answers these questions (and many more) by explaining the Hook Model\u2014a four-step process embedded into the products of many successful companies to subtly encourage customer behavior. Through consecutive \u201chook cycles,\u201d these products reach their ultimate goal of bringing users back again and again without depending on costly advertising or aggressive messaging.\r\n\r\n\r\nHooked is based on Eyal\u2019s years of research, consulting, and practical experience. He wrote the book he wished had been available to him as a start-up founder\u2014not abstract theory, but a how-to guide for building better products. Hooked is written for product managers, designers, marketers, start-up founders, and anyone who seeks to understand how products influence our behavior.",
+    "isbn": "9781591847786",
+    "language": "English",
+    "genre": [
+      8,
+      9
+    ]
+  }
+},
+{
   "model": "catalog.bookinstance",
   "pk": "00881053-d6a9-4cb5-84f6-b22085744169",
   "fields": {
@@ -255,6 +270,17 @@
     "due_back": "2018-12-23",
     "borrower": null,
     "status": "o"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "415395b8-d34b-4e61-ae60-1b05865527d0",
+  "fields": {
+    "book": 13,
+    "imprint": "Kindle",
+    "due_back": null,
+    "borrower": null,
+    "status": "a"
   }
 },
 {
@@ -354,6 +380,17 @@
     "due_back": "2018-07-14",
     "borrower": 2,
     "status": "r"
+  }
+},
+{
+  "model": "catalog.bookinstance",
+  "pk": "d66c371c-9239-4c2c-818d-47437db70792",
+  "fields": {
+    "book": 13,
+    "imprint": "paperback",
+    "due_back": "2018-12-23",
+    "borrower": 2,
+    "status": "o"
   }
 },
 {
